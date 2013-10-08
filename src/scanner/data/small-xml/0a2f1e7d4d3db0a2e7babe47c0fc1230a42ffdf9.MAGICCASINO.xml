@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!-- This analysis was created by CWSandbox (c) CWSE GmbH / Sunbelt Software--> 
+<analysis cwsversion="2.1.12" time="17.08.2009 08:38:47" file="c:\665fd4b4f62896d7709ce14a856e9209" md5="665fd4b4f62896d7709ce14a856e9209" sha1="0a2f1e7d4d3db0a2e7babe47c0fc1230a42ffdf9" logpath="c:\cwsandbox\log\665fd4b4f62896d7709ce14a856e9209\run_1\" analysisid="681929" sampleid="134092">
+<calltree>
+<process_call index="1" pid="2540" filename="c:\665fd4b4f62896d7709ce14a856e9209" starttime="00:03.250" startreason="AnalysisTarget"/>
+</calltree>
+<processes>
+<process index="1" pid="2540" filename="c:\665fd4b4f62896d7709ce14a856e9209" filesize="389472" md5="665fd4b4f62896d7709ce14a856e9209" sha1="0a2f1e7d4d3db0a2e7babe47c0fc1230a42ffdf9" username="Administrator" parentindex="0" starttime="00:03.250" terminationtime="00:11.547" startreason="AnalysisTarget" terminationreason="NormalTermination" executionstatus="OK" applicationtype="Win32Application">
+<dll_handling_section>
+<load_image filename="c:\665fd4b4f62896d7709ce14a856e9209" successful="1" address="&#x24;400000" end_address="&#x24;542000" size="1318912"/>
+<load_dll filename="C:\WINDOWS\system32\ntdll.dll" successful="1" address="&#x24;7C910000" end_address="&#x24;7C9C9000" size="757760"/>
+<load_dll filename="C:\WINDOWS\system32\kernel32.dll" successful="1" address="&#x24;7C800000" end_address="&#x24;7C908000" size="1081344" quantity="3"/>
+<load_dll filename="C:\WINDOWS\system32\ADVAPI32.dll" successful="1" address="&#x24;77DA0000" end_address="&#x24;77E4A000" size="696320" quantity="3"/>
+<load_dll filename="C:\WINDOWS\system32\RPCRT4.dll" successful="1" address="&#x24;77E50000" end_address="&#x24;77EE2000" size="598016"/>
+<load_dll filename="C:\WINDOWS\system32\Secur32.dll" successful="1" address="&#x24;77FC0000" end_address="&#x24;77FD1000" size="69632"/>
+<load_dll filename="C:\WINDOWS\system32\COMCTL32.dll" successful="1" address="&#x24;5D450000" end_address="&#x24;5D4EA000" size="630784" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\GDI32.dll" successful="1" address="&#x24;77EF0000" end_address="&#x24;77F39000" size="299008" quantity="3"/>
+<load_dll filename="C:\WINDOWS\system32\USER32.dll" successful="1" address="&#x24;7E360000" end_address="&#x24;7E3F1000" size="593920" quantity="3"/>
+<load_dll filename="C:\WINDOWS\system32\ole32.dll" successful="1" address="&#x24;774B0000" end_address="&#x24;775ED000" size="1298432" quantity="4"/>
+<load_dll filename="C:\WINDOWS\system32\msvcrt.dll" successful="1" address="&#x24;77BE0000" end_address="&#x24;77C38000" size="360448"/>
+<load_dll filename="C:\WINDOWS\system32\SHELL32.dll" successful="1" address="&#x24;7E670000" end_address="&#x24;7EE91000" size="8523776" quantity="5"/>
+<load_dll filename="C:\WINDOWS\system32\SHLWAPI.dll" successful="1" address="&#x24;77F40000" end_address="&#x24;77FB6000" size="483328"/>
+<load_dll filename="C:\WINDOWS\system32\urlmon.dll" successful="1" address="&#x24;452E0000" end_address="&#x24;45407000" size="1208320" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\OLEAUT32.dll" successful="1" address="&#x24;770F0000" end_address="&#x24;7717B000" size="569344"/>
+<load_dll filename="C:\WINDOWS\system32\iertutil.dll" successful="1" address="&#x24;43F60000" end_address="&#x24;43FA5000" size="282624"/>
+<load_dll filename="C:\WINDOWS\system32\WININET.dll" successful="1" address="&#x24;441E0000" end_address="&#x24;442B0000" size="851968" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\Normaliz.dll" successful="1" address="&#x24;340000" end_address="&#x24;349000" size="36864"/>
+<load_dll filename="C:\WINDOWS\system32\WINMM.dll" successful="1" address="&#x24;76AF0000" end_address="&#x24;76B1E000" size="188416" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\WSOCK32.dll" successful="1" address="&#x24;71A30000" end_address="&#x24;71A3A000" size="40960" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\WS2_32.dll" successful="1" address="&#x24;71A10000" end_address="&#x24;71A27000" size="94208"/>
+<load_dll filename="C:\WINDOWS\system32\WS2HELP.dll" successful="1" address="&#x24;71A00000" end_address="&#x24;71A08000" size="32768"/>
+<load_dll filename="C:\WINDOWS\system32\IMM32.DLL" successful="1" address="&#x24;76330000" end_address="&#x24;7634D000" size="118784"/>
+<load_dll filename="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\" successful="1" address="&#x24;773A0000" end_address="&#x24;774A3000" size="1060864"/>
+<load_dll filename="C:\WINDOWS\system32\pstorec.dll" successful="1" address="&#x24;5E490000" end_address="&#x24;5E49D000" size="53248"/>
+<load_dll filename="C:\WINDOWS\system32\ATL.DLL" successful="1" address="&#x24;76AD0000" end_address="&#x24;76AE1000" size="69632"/>
+<load_dll filename="C:\WINDOWS\system32\uxtheme.dll" successful="1" address="&#x24;5B0F0000" end_address="&#x24;5B128000" size="229376"/>
+<load_dll filename="C:\WINDOWS\system32\version.dll" successful="1" address="&#x24;77BD0000" end_address="&#x24;77BD8000" size="32768"/>
+<load_dll filename="c:\665fd4b4f62896d7709ce14a856e9209" successful="1" address="&#x24;1130001" end_address="&#x24;1130001" size="0" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\msctfime.ime" successful="1" address="&#x24;1130001" end_address="&#x24;1130001" size="0" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\msctfime.ime" successful="1" address="&#x24;75250000" end_address="&#x24;7527E000" size="188416" quantity="2"/>
+<load_dll filename="C:\WINDOWS\system32\MSCTF.dll" successful="1" address="&#x24;746A0000" end_address="&#x24;746EC000" size="311296"/>
+</dll_handling_section>
+<filesystem_section>
+<get_file_attributes filetype="file" srcfile="C:\WINDOWS\" desiredaccess="FILE_ANY_ACCESS" flags="SECURITY_ANONYMOUS"/>
+<open_file filetype="namedpipe" srcfile="\\.\PIPE\lsarpc" creationdistribution="OPEN_EXISTING" desiredaccess="FILE_ANY_ACCESS" shareaccess="FILE_SHARE_READ FILE_SHARE_WRITE" flags="SECURITY_ANONYMOUS" quantity="2"/>
+<get_file_attributes filetype="file" srcfile="C:\Programme\desktop.ini" desiredaccess="FILE_ANY_ACCESS" flags="SECURITY_ANONYMOUS" quantity="3"/>
+<get_file_attributes filetype="file" srcfile="C:\Programme\Windows Casino" desiredaccess="FILE_ANY_ACCESS" flags="SECURITY_ANONYMOUS"/>
+<create_directory filetype="file" srcfile="C:\Programme\Windows Casino"/>
+<find_file filetype="file" srcfile="C:\Programme\Windows Casino\&#x2A;.&#x2A;" desiredaccess="FILE_ANY_ACCESS" flags="SECURITY_ANONYMOUS"/>
+<remove_directory filetype="file" srcfile="C:\Programme\Windows Casino"/>
+<get_file_attributes filetype="file" srcfile="C:\Programme\Windows Casino\fonts" desiredaccess="FILE_ANY_ACCESS" flags="SECURITY_ANONYMOUS"/>
+</filesystem_section>
+<mutex_section>
+<create_mutex name="CTF.LBES.MutexDefaultS-1-5-21-583907252-1708537768-842925246-500" owned="0"/>
+<create_mutex name="CTF.Compart.MutexDefaultS-1-5-21-583907252-1708537768-842925246-500" owned="0"/>
+<create_mutex name="CTF.Asm.MutexDefaultS-1-5-21-583907252-1708537768-842925246-500" owned="0"/>
+<create_mutex name="CTF.Layouts.MutexDefaultS-1-5-21-583907252-1708537768-842925246-500" owned="0"/>
+<create_mutex name="CTF.TMD.MutexDefaultS-1-5-21-583907252-1708537768-842925246-500" owned="0"/>
+<create_mutex name="CTF.TimListCache.FMPDefaultS-1-5-21-583907252-1708537768-842925246-500MUTEX.DefaultS-1-5-21-583907252" owned="0"/>
+<create_mutex name="MSCTF.Shared.MUTEX.EOG" owned="0"/>
+<create_mutex name="MSCTF.Shared.MUTEX.APJ" owned="0"/>
+</mutex_section>
+<registry_section>
+<open_key key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\Compatibility\665fd4b4f62896d7709ce14a856e9209"/>
+<open_key key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\SystemShared"/>
+<query_value key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\SystemShared" value="CUAS" quantity="2"/>
+<open_key key="HKEY_CURRENT_USER\Keyboard Layout\Toggle" quantity="2"/>
+<query_value key="HKEY_CURRENT_USER\Keyboard Layout\Toggle" value="Language Hotkey" quantity="2"/>
+<query_value key="HKEY_CURRENT_USER\Keyboard Layout\Toggle" value="Layout Hotkey" quantity="2"/>
+<open_key key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF"/>
+<query_value key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF" value="EnableAnchorContext"/>
+<open_key key="HKEY_LOCAL_MACHINE\SOFTWARE\RealTime Gaming Software" quantity="2"/>
+<open_key key="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\IMM"/>
+<query_value key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\IMM" value="Ime File"/>
+<open_key key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\CTF"/>
+<query_value key="HKEY_CURRENT_USER\Software\Microsoft\CTF" value="Disable Thread Input Manager"/>
+<open_key key="HKEY_LOCAL_MACHINE\Software\Microsoft\CTF\SystemShared"/>
+<open_key key="HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\SecurityService"/>
+<query_value key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc\SecurityService" value="DefaultAuthLevel"/>
+<open_key key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\CTF\LangBarAddIn"/>
+<open_key key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\LangBarAddIn"/>
+<delete_key key="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Windows Casino"/>
+</registry_section>
+<process_section>
+<open_process targetpid="1856" desiredaccess="PROCESS_ALL_ACCESS PROCESS_CREATE_PROCESS PROCESS_CREATE_THREAD PROCESS_DUP_HANDLE PROCESS_QUERY_INFORMATION PROCESS_SET_INFORMATION PROCESS_TERMINATE PROCESS_VM_OPERATION PROCESS_VM_READ PROCESS_VM_WRITE PROCESS_SET_SESSIONID PROCESS_SET_QUOTA SYNCHRONIZE" apifunction="NtOpenProcess" successful="1" quantity="2"/>
+<kill_process targetpid="2540" apifunction="NtTerminateProcess"/>
+</process_section>
+<system_info_section>
+<check_for_debugger apifunction="IsDebuggerPresent"/>
+<get_system_directory quantity="14"/>
+</system_info_section>
+<thread_section>
+<create_thread targetpid="2540" threadid="2672" address="&#x24;719BD2C6" parameteraddress="&#x24;00169338"/>
+</thread_section>
+<window_section>
+<create_window hwnd="&#x24;0003011C" classname="OleMainThreadWndClass" windowname="OleMainThreadWndName" height="0" width="0" top="0" left="0" style="WS_DISABLED WS_OVERLAPPED WS_POPUP WS_TILED" exstyle="WS_EX_LEFT WS_EX_LTRREADING WS_EX_RIGHTSCROLLBAR"/>
+<create_window hwnd="&#x24;0002011E" classname="IME" windowname="Default IME" height="0" width="0" top="0" left="0" style="WS_DISABLED WS_OVERLAPPED WS_POPUP WS_TILED" exstyle="WS_EX_LEFT WS_EX_LTRREADING WS_EX_RIGHTSCROLLBAR"/>
+<create_window hwnd="&#x24;00020120" classname="&#x23;32770" height="263" width="447" top="380" left="416" style="WS_BORDER WS_CAPTION WS_DLGFRAME WS_GROUP WS_MINIMIZEBOX WS_OVERLAPPED WS_POPUP WS_POPUPWINDOW WS_SYSMENU WS_TILED" exstyle="WS_EX_CONTROLPARENT WS_EX_DLGMODALFRAME WS_EX_LEFT WS_EX_LTRREADING WS_EX_RIGHTSCROLLBAR WS_EX_WINDOWEDGE" quantity="2"/>
+<create_window hwnd="&#x24;0001015C" classname="MSCTFIME UI" windowname="M" height="0" width="0" top="0" left="0" style="WS_DISABLED WS_OVERLAPPED WS_POPUP WS_TILED" exstyle="WS_EX_LEFT WS_EX_LTRREADING WS_EX_RIGHTSCROLLBAR"/>
+<create_window hwnd="&#x24;0001015E" classname="CasinoNetClass" height="1" width="1" top="0" left="0" style="WS_DISABLED WS_OVERLAPPED WS_POPUP WS_TILED" exstyle="WS_EX_LEFT WS_EX_LTRREADING WS_EX_RIGHTSCROLLBAR"/>
+<find_window classname="Shell_TrayWnd"/>
+<enum_window quantity="20"/>
+<create_window hwnd="&#x24;00010160" classname="CicMarshalWndClass" windowname="CicMarshalWndAPJ" height="0" width="0" top="0" left="0" style="WS_DISABLED WS_OVERLAPPED WS_POPUP WS_TILED" exstyle="WS_EX_LEFT WS_EX_LTRREADING WS_EX_RIGHTSCROLLBAR"/>
+<show_window hwnd="&#x24;00020120" snapshotfile="proc_1\hwnd_20120.jpg" quantity="2"/>
+<find_window classname="CicLoaderWndClass" quantity="2"/>
+<find_window classname="OleMainThreadWndClass"/>
+<destroy_window hwnd="&#x24;0001015E" classname="CasinoNetClass"/>
+</window_section>
+<winsock_section>
+<connections_outgoing>
+<connection transportprotocol="TCP" remoteaddr="12.129.69.226" remoteport="20000" connectionestablished="0" socket="1544">
+</connection>
+</connections_outgoing>
+</winsock_section>
+<windows_hook_section>
+<set_windows_hook hookid="WH_KEYBOARD" threadid="2544" hook_address="&#x24;746B07C3" hook_module="&#x24;746A0000"/>
+<set_windows_hook hookid="WH_MOUSE" threadid="2544" hook_address="&#x24;746B04CD" hook_module="&#x24;746A0000"/>
+</windows_hook_section>
+</process>
+</processes>
+<running_processes>
+<running_process pid="0" filename="&#x28;SystemIdle&#x29;"/>
+<running_process pid="4" filename="&#x28;System&#x29;"/>
+<running_process pid="296" filename="C:\WINDOWS\system32\svchost.exe" cmdline_parameters="-k LocalService"/>
+<running_process pid="452" filename="C:\WINDOWS\system32\spupdsvc.exe"/>
+<running_process pid="608" filename="C:\WINDOWS\system32\SearchIndexer.exe" cmdline_parameters="/Embedding"/>
+<running_process pid="640" filename="C:\WINDOWS\System32\smss.exe"/>
+<running_process pid="688" filename="C:\WINDOWS\system32\csrss.exe"/>
+<running_process pid="712" filename="C:\WINDOWS\system32\winlogon.exe"/>
+<running_process pid="756" filename="C:\WINDOWS\system32\services.exe"/>
+<running_process pid="768" filename="C:\WINDOWS\system32\lsass.exe"/>
+<running_process pid="940" filename="C:\WINDOWS\system32\svchost.exe" cmdline_parameters="-k DcomLaunch"/>
+<running_process pid="1008" filename="C:\WINDOWS\system32\svchost.exe" cmdline_parameters="-k rpcss"/>
+<running_process pid="1104" filename="C:\WINDOWS\System32\svchost.exe" cmdline_parameters="-k netsvcs"/>
+<running_process pid="1220" filename="C:\WINDOWS\system32\svchost.exe" cmdline_parameters="-k NetworkService"/>
+<running_process pid="1268" filename="C:\WINDOWS\system32\svchost.exe" cmdline_parameters="-k LocalService"/>
+<running_process pid="1288" filename="C:\WINDOWS\system32\verclsid.exe" cmdline_parameters="/S /C &#x7B;2559A1F5-21D7-11D4-BDAF-00C04F60B9F0&#x7D;"/>
+<running_process pid="1456" filename="C:\WINDOWS\system32\spoolsv.exe"/>
+<running_process pid="1624" filename="C:\WINDOWS\system32\userinit.exe"/>
+<running_process pid="1648" filename="C:\WINDOWS\system32\WgaTray.exe"/>
+<running_process pid="1660" filename="C:\WINDOWS\Explorer.EXE"/>
+<running_process pid="1856" filename="C:\WINDOWS\system32\ctfmon.exe"/>
+<running_process pid="1944" filename="C:\WINDOWS\system32\rundll32.exe" cmdline_parameters="fldrclnr.dll,Wizard_RunDLL"/>
+<running_process pid="2540" filename="c:\665fd4b4f62896d7709ce14a856e9209"/>
+</running_processes>
+</analysis>

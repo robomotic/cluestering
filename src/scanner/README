@@ -1,0 +1,20 @@
+Installation
+-------------------------
+Nothing really to do here
+
+Usage
+-------------------------
+For the help:
+<pre>
+./multimistserial.py -h
+</pre>
+
+If you want to *generate reports* from a folder containing CWS sequential XML files:
+<pre>
+ ./multimistserial.py -r -v data/small-seq/
+</pre>
+If you want to *learn the embedding rule* from a folder containing CWS sequential XML files and MIST reports:
+<pre>
+ ./multimistserial.py -l -v -m data/small-mist/ data/small-seq/
+</pre>
+This will save a dat file in the same script folder that contains the syscall binding associations.
